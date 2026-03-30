@@ -38,12 +38,24 @@ nav img{
 .collaborators{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border: 2px solid black;
+    border-top: 2px solid black;
 }
 
 .card{
     border-right: 2px solid black;
     border-bottom: 2px solid black;
+}
+
+.card:nth-child(3){
+    border-right: none;
+}
+
+.card:nth-child(6){
+    border-right: none;
+}
+
+.card:nth-child(9){
+    border-right: none;
 }
 
 .content p{
@@ -66,6 +78,7 @@ nav img{
 #green{
     background-color: #0B9D5E;
 }
+
 
 #purple{
     background-color: #7761A0;
@@ -94,7 +107,7 @@ a{
 .code {
     display: inline;
     margin-left: 10px;
-    justify-self: right;
+    justify-content: right;
 }
 
 
@@ -103,17 +116,7 @@ a{
     color: black;
 }
 
-.website:hover{
-    animation: shiver 0.5s infinite;
-    display: inline-block;
-}
 
-@keyframes shiver{
-    0%, 100% {transform: translate(0,0);}
-    25% { transform: translate(1px, -1px);}
-    50% { transform: translate(-1px, 1px);}
-    75% { transform: translate(1px, 1px);}
-}
 
 .line{
     width: .5fr;
