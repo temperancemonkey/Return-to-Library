@@ -84,15 +84,17 @@ nav img{
     background-color: #7761A0;
 }
 
-.namecard{
-    position: relative;
-    padding: 10px;
-}
+
 
 
 a{
     color: black;
     text-decoration: none;
+}
+
+.namecard{
+    height: 100%;
+    padding: 10px;
 }
 
 .namecard h2:last-of-type {
@@ -104,10 +106,15 @@ a{
     
 }
 
+.namecode {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .code {
-    display: inline;
     margin-left: 10px;
-    justify-content: right;
+    white-space: nowrap;
 }
 
 
