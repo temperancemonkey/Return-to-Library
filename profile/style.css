@@ -156,17 +156,31 @@ a{
 
 
 @media (max-width: 800px) {
+
+    nav{
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-image: none;
+        background-color: #FFD942;
+      }
+    
+      nav img{
+        width: 8rem;
+        align-items: center;
+        justify-content: center;
+      }
     
     .collaborators{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
     
-    nav img{
+    /* nav img{
     width: 8rem;
     align-items: center;
     justify-content: center;
-  }
+  } */
   
   .who{
     font-size: 15px;
