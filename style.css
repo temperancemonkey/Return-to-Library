@@ -13,6 +13,7 @@
 body{
     user-select: none;
 }
+
 nav{
     background-image: url(assets/Photographs/LandingPage.jpg);
     background-repeat: no-repeat;
@@ -23,7 +24,6 @@ nav{
     left: 0;
     width: 100%;
     z-index: 0;
-
 }
 
 nav img{
@@ -82,6 +82,7 @@ main img{
     margin-left: 20px;
 
 }
+
 h2{
     padding: 10px;
     margin-left: 20px;
@@ -110,10 +111,15 @@ video{
 }
 
 @media (max-width: 800px) {
+
   nav{
+    position: sticky;
+    top: 0;
+    z-index: 10;
     background-image: none;
     background-color: #7761A0;
   }
+
   nav img{
     width: 8rem;
     align-items: center;
@@ -123,13 +129,29 @@ video{
   h2{
     font-size: 15px;
   }
+
   .content{
+    padding: 15px;
+    padding-bottom: 40px;
     grid-template-columns: 1fr 1fr;
   }
+
   .content p{
     display: none;
   }
-  main{
-    margin-top:30%;
+
+  .content a{
+    padding-bottom: 15px;
   }
+
+  main{
+    /* position: sticky; */
+    margin-top: 0;
+  }
+
+  #Special{
+    
+  }
+
+
 }
