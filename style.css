@@ -118,6 +118,7 @@ video{
     z-index: 10;
     background-image: none;
     background-color: #7761A0;
+    /* display: none; */
   }
 
   nav img{
@@ -151,6 +152,7 @@ video{
 
   #Special{
     position: sticky;
+    top: 49.7vh;
   }
 
 
