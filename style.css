@@ -78,6 +78,7 @@ main{
 
 main img{
     width: 25rem;
+    height: auto;
     padding: 10px;
     margin-left: 20px;
 
