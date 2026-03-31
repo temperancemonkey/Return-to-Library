@@ -56,6 +56,11 @@ a:hover{
     border-bottom: 2px solid #000000;
     color: #000000;
 }
+
+#ProjectName{
+    text-wrap: nowrap;
+}
+
 .Projects > *:last-child {
     text-align: right;
     justify-self: end;
@@ -154,4 +159,8 @@ video{
     position: sticky;
     top: 0;
   }
+
+  #ProjectName{
+    text-wrap: nowrap;
+}
 }
