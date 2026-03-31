@@ -171,4 +171,9 @@ a{
     margin: 10px;
     padding: 10px;
   }
+
+  .card{
+    border-right: none;
+}
+
   }
