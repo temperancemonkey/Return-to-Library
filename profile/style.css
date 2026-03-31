@@ -166,4 +166,9 @@ a{
     align-items: center;
     justify-content: center;
   }
+
+  .who p{
+    margin: 10px;
+    padding: 10px;
+  }
   }
