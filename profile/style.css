@@ -79,13 +79,9 @@ nav img{
     background-color: #0B9D5E;
 }
 
-
 #purple{
     background-color: #7761A0;
 }
-
-
-
 
 a{
     color: black;
@@ -94,6 +90,7 @@ a{
 
 .namecard{
     padding: 10px;
+    /* border-top: 2px solid black; */
 }
 
 .namecard h2:last-of-type {
@@ -116,13 +113,10 @@ a{
     white-space: nowrap;
 }
 
-
 .website{
     text-decoration: none;
     color: black;
 }
-
-
 
 .line{
     width: .5fr;
@@ -130,30 +124,13 @@ a{
     background-color: black;
 }
 
-.who{
+#who{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
     margin: 10px;
+    margin-top: 20px;
     padding: 10px;
-    /* background-color: lightblue; */
-
-    font-size: 20px;
+    font-size: 1.2rem;
 }
-
-.card:first-child{
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-.card:first-child {
-    display: flex;
-    justify-content: center;
-}
-
 
 @media (max-width: 800px) {
 
@@ -176,16 +153,9 @@ a{
         grid-template-rows: auto;
     }
     
-    /* nav img{
-    width: 8rem;
-    align-items: center;
-    justify-content: center;
-  } */
   
-  .who{
-    font-size: 15px;
-    margin: 10px;
-    padding: 10px;
+  #who{
+    display: none;
   }
   
   .card{
